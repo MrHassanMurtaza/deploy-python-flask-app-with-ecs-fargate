@@ -1,0 +1,59 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+@font-face{
+    font-family: "Segoe UI";
+    src: url('../fonts/segoeuil.ttf');
+}
+.main-container {
+    height: 100%;
+    width: 100%;
+    color: white;
+    padding-top: 6%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-family: "Segoe UI";
+}
+.cloud-image {
+  width: 1200px;
+  height: 150px;
+  padding-bottom: 50px;
+  padding-left: 30px; 
+
+}
+.cloud-image img {
+  width: 400px;
+}
+.success-text {
+  font-size: 40px;
+  line-height: 20px;
+  font-weight: bold;
+  padding-left: 110px;
+  color: black;
+}
+.success {
+  margin-bottom: 30px;
+  display: block;
+}
+
+.description {
+  font-size: 30px;
+  line-height: 50px;
+  margin-left: 20px;
+}
+.twitterImg {
+  margin-top: 10px;
+}
+@media (max-width: 1024px) {
+  .main-container{
+      padding-top: 1%;
+  }
+  .cloud-image {
+      padding: 30px;
+  }
+}

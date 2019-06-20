@@ -1,6 +1,12 @@
+<div align="center">
+  <img src="https://imgur.com/WqFMNzz"/>
+</div>
+
+> Learn to deploy Python Flask App using Docker, AWS ECS and AWS Fargate.
+
 # Deploy Python App using ECS Fargate
 
-### →Use Docker to Deploy Flask App
+### → Use Docker to Deploy Flask App
 - Clone this project
 - Move to project directory 
 - Run this to build the image:
@@ -16,7 +22,7 @@ docker run -it -p 5000:5000 flask-demo-app:latest
 http://localhost:5000
 ```
 
-### →Use ECS Fargate to Deploy Flask App
+### → Use ECS Fargate to Deploy Flask App
 - Create Repository in Elastic Container Registry (ECR):
 
 ```aws ecr create-repository --repository-name demo-flask-app```
@@ -53,4 +59,3 @@ http://localhost:5000
 
 ## :100: Yay! You'll see the success message
 
-![Successfully Deployed](/images/success-message.png)

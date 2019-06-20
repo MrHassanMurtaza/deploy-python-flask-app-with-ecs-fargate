@@ -28,22 +28,29 @@ http://localhost:5000
 ```docker tag flask-demo-app:latest ACCOUNTID.dkr.ecr.REGIONNAME.amazonaws.com```
 
 - Go to ECS. Create cluster and click on get started
+
 ![Create ECS Cluster](/images/screenshot-1.png)
 
 - Write container name and give the link to the docker image and you uploaded in the preivous steps. You should be able to get it from ECR as well.
+
 ![Enter ECR Image](/images/screenshot-2.png)
 
 - Click on next
+
 ![Task Definition](/images/screenshot-3.png)
 
 - Make sure the service has ecsContainerRole Click on next
-![Service Definition](/images/screenshot-3.png)
+
+![Service Definition](/images/screenshot-4.png)
 
 - Click on next
-![Configure Definition](/images/screenshot-3.png)
+
+![Configure Definition](/images/screenshot-5.png)
 
 - Finally, Review and create the cluster 
-![Review Cluster](/images/screenshot-3.png)
+
+![Review Cluster](/images/screenshot-6.png)
 
 ## :100: Yay! You'll see the success message
+
 ![Successfully Deployed](/images/success-message.png)

@@ -18,10 +18,13 @@ http://localhost:5000
 
 ### Use ECS Fargate to Deploy Flask App
 - Create Repository in Elastic Container Registry (ECR):
+
 ```aws ecr create-repository --repository-name demo-flask-app```
 - Get a command you can use for logging in to the ECR repository you’ve just created:
+
 ```aws ecr get-login --region $YOUR_REGION --no-include-email```
-- Let's put our local docker image to ECR (ACCOUNTID is your account id and REGIONNAME is your region)
+- Let's put our local docker image to ECR (ACCOUNTID is your account id and REGIONNAME is your region):
+
 ```docker tag flask-demo-app:latest ACCOUNTID.dkr.ecr.REGIONNAME.amazonaws.com```
 
 

@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://imgur.com/WqFMNzz"/>
+  <img src="https://i.imgur.com/WqFMNzz"/>
 </div>
 
 > Learn to deploy Python Flask App using Docker, AWS ECS and AWS Fargate.
